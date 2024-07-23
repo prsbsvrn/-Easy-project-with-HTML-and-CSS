@@ -1,0 +1,125 @@
+body {
+    text-align: center;
+}
+
+/* ################### */
+
+:root {
+    --head-footer-bgcolor: #333;
+    --content-bgcolor: #f4f4f4;
+}
+
+/* ################### */
+
+header {
+    background-color: var(--head-footer-bgcolor);
+    padding: 5px;
+    margin-bottom: 40px;
+}
+
+header h1 {
+    color: #fff;
+    text-shadow: 0 0 10px #e0e0c7;
+}
+
+header img {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    box-shadow: 0 0 5px 2px #fff;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+nav ul li {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    text-shadow: 2px 2px 10px #e0e0c7;
+}
+
+/* ################### */
+
+section#about,
+section#projects,
+section#contact {
+    background-color: var(--content-bgcolor);
+    padding: 5px;
+    margin-bottom: 40px;
+}
+
+/* ################### */
+
+section#projects .all-projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+section#projects .all-projects .project {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    position: relative;
+    width: 200px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section#projects .all-projects .initial-text {
+    opacity: 1;
+}
+
+section#projects .all-projects .description {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+section#projects .all-projects .project:hover .initial-text {
+    opacity: 0;
+}
+
+section#projects .all-projects .project:hover .description {
+    opacity: 1;
+}
+
+/* ################### */
+
+section#contact .contact-item {
+    display: inline-flex;
+    padding: 10px;
+}
+
+/* ################### */
+
+footer {
+    background-color: var(--head-footer-bgcolor);
+    padding: 5px;
+    color: #fff;
+}

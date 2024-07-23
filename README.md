@@ -4,6 +4,7 @@ Personal Portfolio Page
 This project involves creating a simple personal portfolio page to showcase your work and skills. The page includes various sections such as a header, about, projects, contact form, and footer, providing a comprehensive view of your professional profile.
 
 Requirements
+
 1. Header
 Name: Displays your name prominently.
 Navigation Bar: Includes links to different sections of the page:
@@ -23,7 +24,9 @@ Name
 Email
 5. Footer
 Basic Information: Includes your social media links and any other relevant footer information.
+
 Skills Practiced
+
 Basic HTML Structure: Building the fundamental layout of the portfolio page using HTML.
 Styling with CSS: Enhancing the appearance and layout of the page with CSS.
 Using Forms: Implementing a functional contact form to allow visitors to send messages.
